@@ -1,4 +1,4 @@
-"# Java-JsonPojo-Example" 
+"# Simple Java-RESTful-Client-Example" 
 
 
 ## 1. Import source code into Eclipse
