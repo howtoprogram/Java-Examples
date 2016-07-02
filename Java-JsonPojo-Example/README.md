@@ -17,4 +17,4 @@ Open the **JsonPojoUtils.java**
 Source code are described in ##[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/) 
 
 # Related articles
- ##[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
+###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
