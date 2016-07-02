@@ -14,7 +14,7 @@ Click **Finish** button to finish the importing
 Open the **JsonPojoUtils.java** 
 
 **Right click -> Run As -> Java Application** or use the shortcut: **Alt+Shift+x, j** to start the main method  
-Source code are described in ##[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/) 
+Source code are described in **[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)** 
 
 # Related articles
 ###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
