@@ -11,9 +11,13 @@ Click **Finish** button to finish the importing
 
 ## 2. The souce code
 
-The **BookServiceImplRaw.java** includes all raw examples which we create content as XML, JSON and postto RESTful WS
-The **BookServiceImplJackson.java** includes all raw examples which we use Jackson to convert objects to XML, JSON before sending RESTful WS
+The **BookRepositoryImplRaw.java** includes all raw examples which we create content as XML, JSON and postto RESTful WS
+The **BookRepositoryImplJackson.java** includes all raw examples which we use Jackson to convert objects to XML, JSON before sending RESTful WS
+The **BookRepositoryImplSpring.java** includes all raw examples about creating RESTful Client With Spring RestTemplate. 
 
-Source code are described in **[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)**
-# Related articles
+Source code are described:
+###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
+###[java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
+#3. Related articles
 ###[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)
+###[RESTful Client With Spring RestTemplate]([java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
