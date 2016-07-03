@@ -20,4 +20,4 @@ Source code are described:
 ###[java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
 #3. Related articles
 ###[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)
-###[RESTful Client With Spring RestTemplate]([java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
+###[RESTful Client With Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)

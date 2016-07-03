@@ -1,4 +1,4 @@
-# Book_RESTful-Service 
+# Book RESTful Service Example
 
 
 ## 1. Import source code into Eclipse
@@ -18,4 +18,4 @@ Open the **Application.java**
 
 This RESTful ws provides API for all below sub projects:
 ###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
-###[RESTful Client With Spring RestTemplate]([java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
+###[RESTful Client With Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)

@@ -18,4 +18,4 @@ Source code are described in **[Convert Java Objects To JSON And Vice Versa](htt
 
 # Related articles
 ###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
-###[RESTful Client With Spring RestTemplate]([java-restful-client-spring-resttemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
+###[RESTful Client With Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
