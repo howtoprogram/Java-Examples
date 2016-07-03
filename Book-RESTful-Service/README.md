@@ -1,4 +1,4 @@
-# Book RESTful Service Example
+# Book RESTful Service Examples
 
 
 ## 1. Import source code into Eclipse

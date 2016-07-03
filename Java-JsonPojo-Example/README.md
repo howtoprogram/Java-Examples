@@ -1,4 +1,4 @@
-# Java-JsonPojo-Example 
+# Java JsonPojo Examples 
 
 
 ## 1. Import source code into Eclipse

@@ -1,4 +1,4 @@
-# Simple Java-RESTful-Client-Example 
+# Simple Java RESTful Client Examples 
 
 
 ## 1. Import source code into Eclipse

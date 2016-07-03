@@ -1,4 +1,4 @@
-# Java-Examples 
+# Java Examples 
 
 ## Java-JsonPojo-Example
 This small project contains examples how to convert Java object, Hashmap, List to JSON and vice versa. It also contains examples about how to work with files.  
