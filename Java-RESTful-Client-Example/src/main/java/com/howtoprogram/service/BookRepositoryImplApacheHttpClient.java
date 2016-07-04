@@ -51,6 +51,7 @@ public class BookRepositoryImplApacheHttpClient {
       httpclient.start();
       // Create a HttpPut instance.
       HttpPut request = new HttpPut(URI_BOOK + "/" + book.getId());
+      request.setHeader("Content-type", "application/json");
       // Create new instance of ObjectMapper
       ObjectMapper mapper = new ObjectMapper();
       String jsonBook = mapper.writeValueAsString(book);
@@ -85,6 +86,7 @@ public class BookRepositoryImplApacheHttpClient {
       httpclient.start();
       // Create a delete method instance.
       HttpPost request = new HttpPost(URI_BOOK);
+      request.setHeader("Content-type", "application/json");
       // Create new instance of ObjectMapper
       ObjectMapper mapper = new ObjectMapper();
       String jsonBook = mapper.writeValueAsString(book);
