@@ -20,8 +20,7 @@ import com.howtoprogram.domain.Book;
 public class BookRepositoryImplApacheHttpClient {
   private static final String URI_BOOK = "http://localhost:8080/v1/books";
 
-  public boolean deleteBook(Long id) {
-    boolean retVal = false;
+  public void deleteBook(Long id) throws Exception {
     CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
     try {
       httpclient.start();
@@ -32,18 +31,16 @@ public class BookRepositoryImplApacheHttpClient {
       HttpResponse response = future.get();
       System.out.println("Response code:" + response.getStatusLine().getStatusCode());
       // Determine whether the request was successfully or not
-      if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-        retVal = true;
+      if (response.getStatusLine().getStatusCode() != HttpStatus.SC_NO_CONTENT) {
+        throw new RuntimeException("Failed to delete the book with id:" + id);
       }
-    } catch (Exception e) {
-      e.printStackTrace();
     } finally {
       HttpAsyncClientUtils.closeQuietly(httpclient);
     }
-    return retVal;
   }
+  
 
-  public Book updateBook(Book book) {
+  public Book updateBook(Book book) throws Exception {
 
     CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
     Book createdBook = null;
@@ -67,10 +64,8 @@ public class BookRepositoryImplApacheHttpClient {
       if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
         // Get back the updated book
         createdBook = mapper.readValue(response.getEntity().getContent(), Book.class);
-
       }
-    } catch (Exception e) {
-      e.printStackTrace();
+
     } finally {
       HttpAsyncClientUtils.closeQuietly(httpclient);
     }
@@ -78,7 +73,7 @@ public class BookRepositoryImplApacheHttpClient {
 
   }
 
-  public Book createBook(Book book) {
+  public Book createBook(Book book) throws Exception {
 
     CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
     Book createdBook = null;
@@ -104,8 +99,7 @@ public class BookRepositoryImplApacheHttpClient {
         createdBook = mapper.readValue(response.getEntity().getContent(), Book.class);
 
       }
-    } catch (Exception e) {
-      e.printStackTrace();
+
     } finally {
       HttpAsyncClientUtils.closeQuietly(httpclient);
     }
@@ -113,17 +107,7 @@ public class BookRepositoryImplApacheHttpClient {
 
   }
 
-  public static void main(String[] args) {
-    BookRepositoryImplApacheHttpClient repository = new BookRepositoryImplApacheHttpClient();
-    // Getting the first book from the RESTful service
-    Book book = repository.getAllBooks()[0];
-    System.out.println(book);
-
-  }
-
-
-  public Book[] getAllBooks() {
-
+  public Book[] getAllBooks() throws Exception {
     Book[] books = null;
     // Create an asyn HttpClient
     CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
@@ -142,13 +126,23 @@ public class BookRepositoryImplApacheHttpClient {
         // Read the inputstream and convert to an array of Book
         books = mapper.readValue(httpEntity.getContent(), Book[].class);
       }
-    } catch (Exception ex) {
-      ex.printStackTrace();
     } finally {
       HttpAsyncClientUtils.closeQuietly(httpclient);
     }
     return books;
   }
+
+
+
+  public static void main(String[] args) throws Exception {
+    BookRepositoryImplApacheHttpClient bookRepository = new BookRepositoryImplApacheHttpClient();
+    // Getting the first book from the RESTful service
+    Book book = bookRepository.getAllBooks()[0];
+    bookRepository.deleteBook(book.getId());
+
+  }
+
+
 
   public Book findBookById(Long id) {
     return null;
