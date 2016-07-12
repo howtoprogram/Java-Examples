@@ -21,3 +21,4 @@ This RESTful ws provides API for all below sub projects:
 ###[RESTful Client With Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
 ###[Java RESTful Client With Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-restful-client-spring-apache-httpcomponents/)
 ###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
+###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
