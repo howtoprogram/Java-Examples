@@ -22,3 +22,4 @@ Source code are described in **[Convert Java Objects To JSON And Vice Versa](htt
 ###[Java RESTful Client With Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-restful-client-spring-apache-httpcomponents/)
 ###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
 ###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
+###[Java RESTful Client With Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-restful-client-resteasy-proxy-framework/)

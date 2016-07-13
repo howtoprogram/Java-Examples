@@ -17,6 +17,7 @@ The **BookRepositoryImplSpring.java** includes all raw examples about creating R
 The **BookRepositoryImplApacheHttpClient.java** includes all raw examples about creating RESTful Client With Apache Httpcomponents
 The **BookRepositoryImplJersey.java** includes all raw examples about creating RESTful Client With Jersey Client library.
 The **BookRepositoryImplResteasy.java** includes all raw examples about creating RESTful Client With Resteasy Client API.
+The **BookRepositoryImplResteasyProxy.java, SimpleResteasyProxyClient.java** includes all raw examples about creating RESTful Client With Resteasy Client Proxy Framework.
 
 Source code are described:
 ###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
@@ -25,3 +26,4 @@ Source code are described:
 ###[Java RESTful Client With Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-restful-client-spring-apache-httpcomponents/)
 ###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
 ###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
+###[Java RESTful Client With Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-restful-client-resteasy-proxy-framework/)

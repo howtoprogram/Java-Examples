@@ -18,36 +18,8 @@ public class BookRepositoryImplResteasyProxy {
     simpleClient.deleteBook(id);
   }
 
-  public static void main(String[] args) throws Exception {
-    BookRepositoryImplResteasyProxy bookRepository = new BookRepositoryImplResteasyProxy();
-    Book book = bookRepository.getAllBooks().get(0);
-    bookRepository.deleteBook(book.getId());
-  }
 
-  /*
-   * public static void main(String[] args) throws Exception { BookRepositoryImplResteasyProxy
-   * bookRepository = new BookRepositoryImplResteasyProxy(); // Getting the first book from the
-   * RESTful service Book book = bookRepository.getAllBooks().get(0); System.out.println(book); //
-   * Change the name book.setName(book.getName() + " 3rd"); // Then update the book book =
-   * bookRepository.updateBook(book); System.out.println(book); }
-   */
-
-
-  /*
-   * public static void main(String[] args) throws Exception { BookRepositoryImplResteasyProxy
-   * bookRepository = new BookRepositoryImplResteasyProxy(); Book book = new Book(null,
-   * "Effective Java", "Joshua Bloch"); Book createdBook = bookRepository.createBook(book);
-   * System.out.println(createdBook); }
-   */
-
-
-  /*
-   * public static void main(String[] args) throws Exception { BookRepositoryImplResteasyProxy
-   * bookRepository = new BookRepositoryImplResteasyProxy(); List<Book> books =
-   * bookRepository.getAllBooks(); System.out.println(books); }
-   */
   public Book updateBook(Book book) throws Exception {
-
     ResteasyClient client = new ResteasyClientBuilder().build();
     ResteasyWebTarget target = client.target(URI_BOOK);
     SimpleResteasyProxyClient simpleClient = target.proxy(SimpleResteasyProxyClient.class);
@@ -68,8 +40,13 @@ public class BookRepositoryImplResteasyProxy {
 
 
 
-  public List<Book> getAllBooks() throws Exception {
+  public static void main(String[] args) throws Exception {
+    BookRepositoryImplResteasyProxy bookRepository = new BookRepositoryImplResteasyProxy();
+    Book book = bookRepository.getAllBooks().get(0);
+    bookRepository.deleteBook(book.getId());
+  }
 
+  public List<Book> getAllBooks() throws Exception {
     ResteasyClient client = new ResteasyClientBuilder().build();
     ResteasyWebTarget target = client.target(URI_BOOK);
     SimpleResteasyProxyClient simpleClient = target.proxy(SimpleResteasyProxyClient.class);
