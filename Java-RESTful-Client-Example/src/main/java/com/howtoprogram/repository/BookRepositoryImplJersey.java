@@ -1,4 +1,4 @@
-package com.howtoprogram.service;
+package com.howtoprogram.repository;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

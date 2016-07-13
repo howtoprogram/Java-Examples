@@ -1,4 +1,4 @@
-package com.howtoprogram.service;
+package com.howtoprogram.repository;
 
 import java.util.List;
 

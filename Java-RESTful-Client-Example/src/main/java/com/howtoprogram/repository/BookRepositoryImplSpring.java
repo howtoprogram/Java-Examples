@@ -1,4 +1,4 @@
-package com.howtoprogram.service;
+package com.howtoprogram.repository;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
