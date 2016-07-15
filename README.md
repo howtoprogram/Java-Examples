@@ -13,3 +13,4 @@ This RESTful ws provides API for all below sub projects
 ###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
 ###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
 ###[Java RESTful Client With Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-restful-client-resteasy-proxy-framework/)
+###[Java RESTful Client Using Apache CXF Proxy-based API](howtoprogram.xyz/2016/07/15/java-restful-client-using-apache-cxf-proxy-based-api/)

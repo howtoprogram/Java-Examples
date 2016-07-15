@@ -68,5 +68,18 @@
 			<version>3.0.17.Final</version>
 		</dependency>
 		<!-- End Resteasy dependencies -->
+		<!-- Begin Apache CXF dependencies -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-rs-client</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxrs</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+
+		<!-- End Apache CXF dependencies -->
 	</dependencies>
 </project>
