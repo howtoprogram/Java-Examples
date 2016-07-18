@@ -17,8 +17,10 @@ The **BookRepositoryImplSpring.java** includes all raw examples about creating R
 The **BookRepositoryImplApacheHttpClient.java** includes all raw examples about creating RESTful Client With Apache Httpcomponents
 The **BookRepositoryImplJersey.java** includes all raw examples about creating RESTful Client With Jersey Client library.
 The **BookRepositoryImplResteasy.java** includes all raw examples about creating RESTful Client With Resteasy Client API.
-The **BookRepositoryImplResteasyProxy.java, SimpleResteasyProxyClient.java** includes all raw examples about creating RESTful Client With Resteasy Client Proxy The **BookRepositoryImplCXFProxy.java, BookResource.java** includes all raw examples about creating Java RESTful Client Using Apache CXF Proxy-based API 
+The **BookRepositoryImplResteasyProxy.java, SimpleResteasyProxyClient.java** includes all raw examples about creating RESTful Client With Resteasy Client Proxy 
+The **BookRepositoryImplCXFProxy.java, BookResource.java** includes all raw examples about creating Java RESTful Client Using Apache CXF Proxy-based API 
 Framework.
+The **BookResourceFeign.java, BookRepositoryImplFeign.java** includes all raw examples about creating Java RESTful Client Using Netflix Feign
 
 Source code are described:
 ###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
@@ -28,3 +30,4 @@ Source code are described:
 ###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
 ###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
 ###[Java RESTful Client Using Apache CXF Proxy-based API](howtoprogram.xyz/2016/07/15/java-restful-client-using-apache-cxf-proxy-based-api/)
+###[Java RESTful Client Using Netflix Feign](http://howtoprogram.xyz/2016/07/18/java-restful-client-using-netflix-feign/)
