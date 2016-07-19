@@ -17,10 +17,11 @@ Open the **JsonPojoUtils.java**
 Source code are described in **[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)** 
 
 ## Related articles
-###[Simple Java RESTful Web Service Clients](http://howtoprogram.xyz/2016/07/02/java-restful-web-service-clients/)
-###[RESTful Client With Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-restful-client-spring-resttemplate/)
-###[Java RESTful Client With Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-restful-client-spring-apache-httpcomponents/)
-###[Java RESTful Client With Jersey Client](http://howtoprogram.xyz/2016/07/05/java-restful-client-jersey-client/)
-###[Java RESTful Client With Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-restful-client-resteasy-client/)
-###[Java RESTful Client With Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-restful-client-resteasy-proxy-framework/)
-###[Java RESTful Client Using Apache CXF Proxy-based API](howtoprogram.xyz/2016/07/15/java-restful-client-using-apache-cxf-proxy-based-api/)
+###[Simple Java REST Client Using java.net.URL package](http://howtoprogram.xyz/2016/07/02/simple-java-rest-client-using-java-net-url-package)
+###[Java REST Client Using Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-rest-client-using-spring-resttemplate/)
+###[Java REST Client Using Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-rest-client-using-spring-apache-httpcomponents/)
+###[Java REST Client Using Jersey Client](http://howtoprogram.xyz/2016/07/05/java-rest-client-using-jersey-client/)
+###[Java REST Client Using Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-rest-client-using-resteasy-client/)
+###[Java REST Client Using Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-rest-client-using-resteasy-client-proxy-framework/)
+###[Java REST Client Using Apache CXF Proxy based API](http://howtoprogram.xyz/2016/07/15/java-rest-client-using-apache-cxf-proxy-based-api/)
+###[Java REST Client Using Netflix Feign](http://howtoprogram.xyz/2016/07/18/java-rest-client-using-netflix-feign/)
