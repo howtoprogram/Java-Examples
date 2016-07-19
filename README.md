@@ -9,7 +9,7 @@ This RESTful ws provides API for all below sub projects
 
 ###[Simple Java REST Client Using java.net.URL package](http://howtoprogram.xyz/2016/07/02/simple-java-rest-client-using-java-net-url-package)
 ###[Java REST Client Using Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-rest-client-using-spring-resttemplate/)
-###[Java REST Client Using Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-rest-client-using-spring-apache-httpcomponents/)
+###[Java REST Client Using Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-rest-client-using-apache-httpcomponents/)
 ###[Java REST Client Using Jersey Client](http://howtoprogram.xyz/2016/07/05/java-rest-client-using-jersey-client/)
 ###[Java REST Client Using Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-rest-client-using-resteasy-client/)
 ###[Java REST Client Using Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-rest-client-using-resteasy-client-proxy-framework/)
