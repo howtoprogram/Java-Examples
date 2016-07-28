@@ -21,6 +21,7 @@ The **BookRepositoryImplResteasyProxy.java, SimpleResteasyProxyClient.java** inc
 The **BookRepositoryImplCXFProxy.java, BookResource.java** includes all raw examples about creating Java Java REST Client Using Apache CXF Proxy-based API 
 Framework.
 The **BookResourceFeign.java, BookRepositoryImplFeign.java** includes all raw examples about creating Java Java REST Client Using Netflix Feign
+The **BookRepositoryImplUnirest.java** includes all raw examples about creating Java Java REST Client Using Unirest Java API
 
 Source code are described:
 ###[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)
@@ -32,3 +33,4 @@ Source code are described:
 ###[Java REST Client Using Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-rest-client-using-resteasy-client-proxy-framework/)
 ###[Java REST Client Using Apache CXF Proxy based API](http://howtoprogram.xyz/2016/07/15/java-rest-client-using-apache-cxf-proxy-based-api/)
 ###[Java REST Client Using Netflix Feign](http://howtoprogram.xyz/2016/07/18/java-rest-client-using-netflix-feign/)
+###[Java REST Client Using Unirest Java API](http://howtoprogram.xyz/2016/07/27/java-rest-client-using-unirest-java-api/)

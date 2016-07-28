@@ -25,3 +25,4 @@ This RESTful ws provides API for all below sub projects:
 ###[Java REST Client Using Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-rest-client-using-resteasy-client-proxy-framework/)
 ###[Java REST Client Using Apache CXF Proxy based API](http://howtoprogram.xyz/2016/07/15/java-rest-client-using-apache-cxf-proxy-based-api/)
 ###[Java REST Client Using Netflix Feign](http://howtoprogram.xyz/2016/07/18/java-rest-client-using-netflix-feign/)
+###[Java REST Client Using Unirest Java API](http://howtoprogram.xyz/2016/07/27/java-rest-client-using-unirest-java-api/)
