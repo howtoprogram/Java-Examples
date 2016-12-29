@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.howtoprogram.book")
+@ComponentScan({"com.howtoprogram.book", "com.howtoprogram.service"})
 public class Application {
 
   public static void main(String[] args) {
