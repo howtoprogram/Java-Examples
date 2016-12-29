@@ -28,3 +28,4 @@ This RESTful ws provides API for all below sub projects:
 ###[Java REST Client Using Unirest Java API](http://howtoprogram.xyz/2016/07/27/java-rest-client-using-unirest-java-api/)
 ###[Java REST Client Using Retrofit 2](http://howtoprogram.xyz/2016/10/17/java-rest-client-using-retrofit-2/)
 ###[Upload a File with OkHttp](http://howtoprogram.xyz/2016/11/21/upload-file-okhttp/)
+###[File Uploading with Open Feign](http://howtoprogram.xyz/2016/12/29/file-uploading-open-feign/)
