@@ -11,16 +11,25 @@ Click **Finish** button to finish the importing
 
 ## 2. The souce code
 
-The **BookRepositoryImplRaw.java** includes all raw examples which we create content as XML, JSON and postto RESTful WS
+The **BookRepositoryImplRaw.java** includes all raw examples which we create content as XML, JSON and post to RESTful WS
+
 The **BookRepositoryImplJackson.java** includes all raw examples which we use Jackson to convert objects to XML, JSON before sending RESTful WS
+
 The **BookRepositoryImplSpring.java** includes all raw examples about creating Java REST Client With Spring RestTemplate. 
+
 The **BookRepositoryImplApacheHttpClient.java** includes all raw examples about creating Java REST Client With Apache Httpcomponents
+
 The **BookRepositoryImplJersey.java** includes all raw examples about creating Java REST Client With Jersey Client library.
+
 The **BookRepositoryImplResteasy.java** includes all raw examples about creating Java REST Client With Resteasy Client API.
+
 The **BookRepositoryImplResteasyProxy.java, SimpleResteasyProxyClient.java** includes all raw examples about creating Java REST Client With Resteasy Client Proxy 
+
 The **BookRepositoryImplCXFProxy.java, BookResource.java** includes all raw examples about creating Java Java REST Client Using Apache CXF Proxy-based API 
 Framework.
+
 The **BookResourceFeign.java, BookRepositoryImplFeign.java** includes all raw examples about creating Java Java REST Client Using Netflix Feign
+
 The **BookRepositoryImplUnirest.java** includes all raw examples about creating Java Java REST Client Using Unirest Java API
 
 Source code are described:
