@@ -18,3 +18,4 @@ This RESTful ws provides API for all below sub projects
 ###[Java REST Client Using Unirest Java API](http://howtoprogram.xyz/2016/07/27/java-rest-client-using-unirest-java-api/)
 ###[Java REST Client Examples Using OkHttp] (howtoprogram.xyz/2016/10/31/java-rest-client-examples-using-okhttp/)
 ###[How to Post with Retrofit 2] (http://howtoprogram.xyz/2017/02/17/how-to-post-with-retrofit-2/)
+###[Ignore Unknown Properties or New Fields in Jackson] (http://howtoprogram.xyz/2017/02/18/ignore-exclude-new-fields-deserializing-jackson/)
