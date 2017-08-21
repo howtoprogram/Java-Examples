@@ -1,25 +1,36 @@
-# Java Examples 
+#Java Examples 
 
-## 1. Java JsonPojo Example
+##1.Java JsonPojo Example
 This small project contains examples how to convert Java object, Hashmap, List to JSON and vice versa. It also contains examples about how to work with files.  
 ###[Convert Java Objects To JSON And Vice Versa](http://howtoprogram.xyz/2016/07/01/convert-java-objects-json-vice-versa/)
-## 2. Book RESTful Service Examples
+##2.Book RESTful Service Examples
 This RESTful ws provides API for all below sub projects
-## 3. Simple Java REST Client Example
+##3.Simple Java REST Client Example
 
 ###[Simple Java REST Client Using java.net.URL package](http://howtoprogram.xyz/2016/07/02/simple-java-rest-client-using-java-net-url-package)
+
 ###[Java REST Client Using Spring RestTemplate](http://howtoprogram.xyz/2016/07/03/java-rest-client-using-spring-resttemplate/)
+
 ###[Java REST Client Using Apache Httpcomponents](http://howtoprogram.xyz/2016/07/04/java-rest-client-using-apache-httpcomponents/)
+
 ###[Java REST Client Using Jersey Client](http://howtoprogram.xyz/2016/07/05/java-rest-client-using-jersey-client/)
+
 ###[Java REST Client Using Resteasy Client](http://howtoprogram.xyz/2016/07/12/java-rest-client-using-resteasy-client/)
+
 ###[Java REST Client Using Resteasy Client Proxy Framework](http://howtoprogram.xyz/2016/07/13/java-rest-client-using-resteasy-client-proxy-framework/)
+
 ###[Java REST Client Using Apache CXF Proxy based API](http://howtoprogram.xyz/2016/07/15/java-rest-client-using-apache-cxf-proxy-based-api/)
+
 ###[Java REST Client Using Netflix Feign](http://howtoprogram.xyz/2016/07/18/java-rest-client-using-netflix-feign/)
+
 ###[Java REST Client Using Unirest Java API](http://howtoprogram.xyz/2016/07/27/java-rest-client-using-unirest-java-api/)
-###[Java REST Client Examples Using OkHttp] (howtoprogram.xyz/2016/10/31/java-rest-client-examples-using-okhttp/)
-###[How to Post with Retrofit 2] (http://howtoprogram.xyz/2017/02/17/how-to-post-with-retrofit-2/)
-###[Ignore Unknown Properties or New Fields in Jackson] (http://howtoprogram.xyz/2017/02/18/ignore-exclude-new-fields-deserializing-jackson/)
+
+###[Java REST Client Examples Using OkHttp](howtoprogram.xyz/2016/10/31/java-rest-client-examples-using-okhttp/)
+
+###[How to Post with Retrofit 2](http://howtoprogram.xyz/2017/02/17/how-to-post-with-retrofit-2/)
+
+###[Ignore Unknown Properties or New Fields in Jackson](http://howtoprogram.xyz/2017/02/18/ignore-exclude-new-fields-deserializing-jackson/)
 
 
 ## 4. Java 8
-###[Java 8 – Format Date, LocalDate, LocalDateTime and ZonedDateTime])https://howtoprogram.xyz/2017/08/20/java-8-format-date-localdate-localdatetime/)
+###[Java 8 – Format Date, LocalDate, LocalDateTime and ZonedDateTime](https://howtoprogram.xyz/2017/08/20/java-8-format-date-localdate-localdatetime/)
