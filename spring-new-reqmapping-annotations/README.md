@@ -16,4 +16,4 @@ Open the **Application.java**
 **Right click -> Run As -> Java Application** or use the shortcut: **Alt+Shift+x, j** to start the main method  
 
 
-###[Using New Composed Annotations for @RequestMapping in Spring Framework](http://howtoprogram.xyz/2017/03/16/using-new-composed-annotations-of-requestmapping-in-spring-framework/)
+### [Using New Composed Annotations for @RequestMapping in Spring Framework](http://howtoprogram.xyz/2017/03/16/using-new-composed-annotations-of-requestmapping-in-spring-framework/)

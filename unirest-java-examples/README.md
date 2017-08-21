@@ -1,4 +1,4 @@
-# OkHttp Client Example and Tutorials 
+# Unirest for Java Example and Tutorials 
 
 
 ## 1. Import source code into Eclipse
@@ -11,5 +11,6 @@ Click **Finish** button to finish the importing
 
 
 Source code are described:
-###[Download a File with OkHttp](http://howtoprogram.xyz/2016/11/17/download-a-file-with-okhttp/)
-###[Set Timeout with OkHttp](http://howtoprogram.xyz/2016/11/23/set-timeout-okhttp/)
+### [Configure Basic Authentication on Unirest for Java](https://howtoprogram.xyz/2017/08/19/configure-basic-authentication-unirest-java/)
+
+### [Java REST Client Example](https://howtoprogram.xyz/java-technologies/java-rest-client-example/)
