@@ -7,7 +7,7 @@
   <packaging>jar</packaging>
 
   <name>retrofit-post-json</name>
-  <url>http://howtoprogram.xyz/2017/02/16/how-to-post-with-retrofit-2/</url>
+  <url>https://howtoprogram.xyz/2017/12/30/retrofit-post-json/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
