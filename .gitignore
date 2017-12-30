@@ -1,2 +1,26 @@
-okhttp-examples/.settings/org.eclipse.core.resources.prefs
-okhttp-examples/.settings/org.eclipse.m2e.core.prefs
+# Eclipse
+.project
+.classpath
+.settings/
+ 
+# Idea
+.idea/
+*.iml
+*.iws
+*.ipr
+ 
+# OS
+Thumbs.db
+.DS_Store
+ 
+# Maven
+target/
+ 
+# Build
+out/
+build/
+bin/
+
+ 
+# Others
+*.log
